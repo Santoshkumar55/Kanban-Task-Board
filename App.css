@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #f0f2f5;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.add-section {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete {
+  background-color: red;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  background-color: white;
+  padding: 10px;
+  width: 30%;
+  border-radius: 6px;
+}
+
+.card {
+  background-color: #e0e0e0;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
