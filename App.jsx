@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Kanban Board</h1>
+      <h1>Kanban Task Board</h1>
 
       <div className="add-section">
         <input
@@ -43,6 +43,7 @@ function App() {
       </div>
 
       <div className="board">
+
         {/* TO DO */}
         <div className="column">
           <h2>To Do</h2>
@@ -104,6 +105,7 @@ function App() {
             </div>
           ))}
         </div>
+
       </div>
     </div>
   );
